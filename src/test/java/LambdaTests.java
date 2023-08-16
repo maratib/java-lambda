@@ -7,20 +7,18 @@ public class LambdaTests {
         // System.out.println("Hello from Test1");
         lambdaPrint(() -> System.out.println("Hello Lambda!"));
 
-        var lambda1 = (LambdaPrint) () -> System.out.println("Hello Lambda1");
-        LambdaPrint lambda2 = () -> System.out.println("Hello Lambda2");
-        lambda1.print();
-        lambda2.print();
+        var lambda1 = (MyInter) () -> System.out.println("Hello Lambda1");
+        MyInter lambda2 = () -> System.out.println("Hello Lambda2");
+        lambda1.sayHello();
+        lambda2.sayHello();
+
+        System.out.println(lambda2.getVersion());
+        System.out.println(MyInter.add(4, 4));
 
     }
 
-    private void lambdaPrint(LambdaPrint print) {
-        print.print();
+    private void lambdaPrint(MyInter myInter) {
+        myInter.sayHello();
     }
 
-}
-
-@FunctionalInterface
-interface LambdaPrint {
-    public void print();
 }
