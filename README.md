@@ -1,13 +1,14 @@
 # Java Lambda Expression
 
-### How to define lambda expression?
-```java
-// The new operator (->) used is known as an arrow operator or a lambda operator.
- (parameter list) -> lambda-body 
- ```
 ## Lambda is an anonymous function
 - No name, no modifier, no return type
 - Use only with `FunctionalInterfaces`
+
+### How to define lambda expression?
+```java
+// The new operator (->) known as an arrow operator or a lambda operator.
+ (parameter list) -> lambda-body 
+ ```
 
 ## Benefits of Lambda
 - Enables functional programming.
