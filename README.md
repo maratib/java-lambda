@@ -2,7 +2,7 @@
 
 ## Lambda is an anonymous function
 
-- Perfectly concise code
+- Perfectly concise and short code
 - No name, no modifier, no return type
 - Use only with `FunctionalInterfaces`
 
