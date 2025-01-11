@@ -16,13 +16,15 @@
     </properties>
 
     <dependencies>
+
+    <!-- JUnit 5 testing dependencies -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.jupiter.version}</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
+        <!-- <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit.jupiter.version}</version>
@@ -39,7 +41,8 @@
             <artifactId>junit-platform-suite</artifactId>
             <version>${junit.platform.version}</version>
             <scope>test</scope>
-        </dependency>
+        </dependency> -->
+        <!-- JUnit 5 testing dependencies Ends -->
     </dependencies>
 
 </project>

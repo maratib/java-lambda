@@ -33,7 +33,7 @@ public class Lambda2Tests {
     }
     @Test
     public void preLambdaTest() {
-        FInterface i = new FInterface() { //inline implementation of interface
+        var i = new FInterface() { //inline implementation of interface
             @Override
             public void m() {
                 System.out.println("Hello without Lambda!");
